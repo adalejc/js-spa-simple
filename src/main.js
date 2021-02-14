@@ -6,8 +6,9 @@ import './main.scss';
 import { router } from './router/index.router';
 
 window.onload = () => {
-  console.log('Windows onload');
-  router(window.location.hash);
+  //console.log('Windows onload');
+  //console.log(window.location.hash);
+  router('#/');
 }
 
 window.addEventListener('hashchange', () => {
